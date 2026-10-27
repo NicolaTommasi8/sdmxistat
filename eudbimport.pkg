@@ -1,0 +1,19 @@
+v 2.1.1
+d eudbimport. Package to import EUROSTAT dababases.
+d Program by Nicola Tommasi (nicola.tommasi@univr.it)
+d
+d Distribution-Date: 20250413
+
+
+* I can also insert comments; these will not be displayed.
+* f lines name the files that comprise your package:
+
+f eudbimport.ado
+F eudbimport_labvar.do
+f eudbimport.sthlp
+
+f eudbimport.pdf
+
+* F serve per includere do-file in ado's PLUS
+
+

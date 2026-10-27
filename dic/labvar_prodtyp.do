@@ -1,0 +1,7 @@
+cap label var CODE "Label - English"
+cap label var TOTAL "All types of production"
+cap label var VQPRD "Exclusively quality wines psr"
+cap label var OTHWINE "Exclusively other wines"
+cap label var TABLEGRP "Exclusively table grapes"
+cap label var RAISIN "Exclusively grapes destined to be dried"
+cap label var OTHER "Others (other types of production, mixed production, etc.)"

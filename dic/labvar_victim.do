@@ -1,0 +1,6 @@
+cap label var CODE "Label - English"
+cap label var TOTAL "Total"
+cap label var KIL "Killed"
+cap label var INJ "Injured"
+cap label var INJ_SRL "Seriously injured"
+cap label var INJ_SLG "Slightly injured"

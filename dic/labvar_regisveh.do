@@ -1,0 +1,7 @@
+cap label var CODE "Label - English"
+cap label var TOTAL "Total"
+cap label var TERNAT_REG "Traffic performed on the national territory by vehicles registered in the reporting country or in foreign countries"
+cap label var TERNAT_REGNAT "Traffic performed on the national territory by vehicles registered in the reporting country"
+cap label var TERNAT_REGFOR "Traffic performed on the national territory by vehicles registered in foreign countries"
+cap label var TERFOR_REGNAT "Traffic performed on the foreign territory by vehicles registered in the reporting country"
+cap label var TER_REGNAT "Traffic performed on the national or foreign territory by vehicles registered in the reporting country"

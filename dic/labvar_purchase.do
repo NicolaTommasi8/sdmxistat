@@ -1,0 +1,6 @@
+cap label var CODE "Label - English"
+cap label var TOTAL "Total"
+cap label var CUR "Current purchases"
+cap label var LTC "Purchases based on long term contracts"
+cap label var DW_NEW "Purchases of newly built dwellings"
+cap label var DW_EXST "Purchases of existing dwellings"
