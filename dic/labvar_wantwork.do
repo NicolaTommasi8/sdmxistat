@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var YES "Would like to work but is not seeking employment"
-cap label var NO "Do not want to work"
-cap label var NRP "No answer"

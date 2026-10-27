@@ -1,6 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var COM "Commuting or willing to commute"
-cap label var NCOM "Not commuting and not willing to commute"
-cap label var NRP "No response"
-cap label var UNK "Unknown"

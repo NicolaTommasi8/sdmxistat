@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var POLC "Police"
-cap label var LEG "Legal system"
-cap label var POLIT "Political system"
-cap label var OTH "Other"

@@ -1,6 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var EXP "Experience"
-cap label var NONE "No experience"
-cap label var _1 "1 experience"
-cap label var GE2 "2 experiences or more"

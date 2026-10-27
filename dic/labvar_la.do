@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var LA_1_5 "Agricultural irrigated land"
-cap label var LA_7 "Land area"
-cap label var LA_8 "Total area"
-cap label var LA_9_2 "Area affected by desertification"

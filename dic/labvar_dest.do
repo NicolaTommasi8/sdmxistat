@@ -1,8 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var CITY "City"
-cap label var CTRY "Countryside"
-cap label var SEA "Seaside"
-cap label var CRS "Cruise ship"
-cap label var MNT "Mountains"
-cap label var OTH "Other"

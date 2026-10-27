@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var YES_ESB "Entitlement to sickness benefits"
-cap label var NO_ESB "No entitlement to sickness benefits"
-cap label var UNK "Unknown"

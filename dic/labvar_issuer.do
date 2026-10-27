@@ -1,8 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var PRV "Private"
-cap label var PUB "Public"
-cap label var SNTL "Supranational"
-cap label var SBNTL "Subnational"
-cap label var CRP "Corporate"
-cap label var GOV "Government"

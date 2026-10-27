@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var SPR "Social protection benefits"
-cap label var ADM "Administration costs"
-cap label var OTH "Other expenditure"

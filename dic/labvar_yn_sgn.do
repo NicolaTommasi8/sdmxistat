@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var TOTAL "Total"
-cap label var YES_SGN "Significant"
-cap label var NO_SGN "Not significant"
-cap label var NONE "None"

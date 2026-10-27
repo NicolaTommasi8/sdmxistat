@@ -1,5 +1,0 @@
-cap label var CODE "Label - English"
-cap label var GRT_DIF_SOME "Great, difficult or some"
-cap label var FEASY_EASY_VEASY "Fairly easy, easy or very easy"
-cap label var EM_GSD "Households making ends meet with great difficulty, with difficulty or with some difficulty"
-cap label var EM_FVE "Households making ends meet fairly easily, easily or very easily"
