@@ -1,18 +1,17 @@
-v 2.1.1
-d eudbimport. Package to import EUROSTAT dababases.
+v 1.0
+d SDMXISTAT: Consente la connessione tramite API SDMX ai dati del portale IstatData di Istat.
 d Program by Nicola Tommasi (nicola.tommasi@univr.it)
 d
-d Distribution-Date: 20250413
+d Distribution-Date: 20261027
 
 
 * I can also insert comments; these will not be displayed.
 * f lines name the files that comprise your package:
 
-f eudbimport.ado
-F eudbimport_labvar.do
-f eudbimport.sthlp
+f sdmxistat.ado
+f sdmxistat.sthlp
 
-f eudbimport.pdf
+f sdmxistat.pdf
 
 * F serve per includere do-file in ado's PLUS
 
