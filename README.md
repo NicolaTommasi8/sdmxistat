@@ -1,7 +1,7 @@
 # sdmxistat
 Nuovo comando Stata per la connessione tramite API SDMX ai dati del portale IstatData di Istat.
 
-Example:
+Esempi:
 
     sdmxistat dataflow IT1, clear
 
