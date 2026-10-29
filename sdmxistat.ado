@@ -1,14 +1,12 @@
-**v 1.0 07sep2026: -aggiunte label in italiano (*_it)
-**                 -sistemato encoding dei caratteri accentati
+**07sep2026: -aggiunte label in italiano (*_it)
+**           -sistemato encoding dei caratteri accentati
 
 
 /*******************************************************************************
   Author: Sebastien Fontenay (sebastien.fontenay@uclouvain.be)
   Version: 2.0
   Last update: June 2018
-
   This program uses the package "moss" by Robert Picard & Nicholas J. Cox
-
   Many thanks for suggestions of improvements to: Samuel Pinto Ribeiro & Jan Helmdag
   Modified by myself
 
@@ -16,21 +14,17 @@
 
 sdmxistat is a version of the SDMXUSE Stata module, with the changes
  allowing users to connect to ISTAT.
-
 Full credit goes to Sebastien Fontenay, Robert Picard, Nicholas Cox.
-
 This module is a simple adaptation of the SDMXUSE module (Fontenay),
  which itself uses the MOSS module (Picard & Cox).
-
 Sebastien Fontenay, 2016. "SDMXUSE: Stata module to import data from statistical agencies using the SDMX standard"
  Statistical Software Components S458231, Boston College Department of Economics, revised 30 Sep 2018.
-
 Robert Picard & Nicholas J. Cox, 2011. "MOSS: Stata module to find multiple occurrences of substrings"
  Statistical Software Components S457261, Boston College Department of Economics, revised 29 Apr 2016.
 
-see:
-https://esploradati.istat.it/databrowser/#/it
-https://datiistat.it/alldataflows
+**https://esploradati.istat.it/databrowser/#/it
+**https://datiistat.it/alldataflows
+
 *******************************************************************************/
 
 program define sdmxistat, rclass
@@ -421,7 +415,7 @@ if "`resource'"=="data" {
   **### Create variable serieskey if dataset needs to be reshaped
   if "`timeseries'"!="" {
     foreach var of varlist `macroconceptuniq' {
-      bysort `var': qui gen nvals = _n == 1
+      bysort `var': gen nvals = _n == 1
       qui replace nvals = sum(nvals)
       if nvals[_N]==1 {
         local macroconceptuniq : subinstr local macroconceptuniq "`var'" ""
@@ -457,7 +451,7 @@ if "`resource'"=="data" {
     }
     local nogeo : subinstr local macroconceptuniq "`panel'" ""
     foreach var of varlist `nogeo' {
-      bysort `var': qui gen nvals = _n == 1
+      bysort `var': gen nvals = _n == 1
       qui replace nvals = sum(nvals)
       if nvals[_N]==1 {
         local nogeo : subinstr local nogeo "`var'" ""
@@ -552,6 +546,10 @@ if "`resource'"=="data" {
 }
 
 
+**qui ds
+**local first = word("`r(varlist)'",1)
+**capture drop if `first'==""
+**capture drop if `first'==.
 return local CALL = "`call'"
 end
 
