@@ -1,3 +1,5 @@
+![StataMin](https://img.shields.io/badge/stata-2015-blue)
+
 # sdmxistat
 Nuovo comando Stata per la connessione tramite API SDMX ai dati del portale IstatData di Istat.
 
