@@ -1,4 +1,4 @@
-![StataMin](https://img.shields.io/badge/stata-2026-blue)
+![StataMin](https://img.shields.io/badge/stata-2026-blue) ![version](https://img.shields.io/badge/1.0)
 
 # sdmxistat
 Nuovo comando Stata per la connessione tramite API SDMX ai dati del portale IstatData di Istat.
